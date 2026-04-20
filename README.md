@@ -12,3 +12,7 @@ npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
 npx hardhat test ./test/DAO.js
+
+
+npx hardhat run scripts/deploy.js --network localhost
+npx hardhat run scripts/seed.js --network localhost
